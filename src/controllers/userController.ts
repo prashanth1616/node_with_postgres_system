@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { getUserById } from '../models/userModel';
 
 export const getUser = async (req: Request, res: Response) => {
-  const id = req.params.id;
+  const id = req.params.id; 
   try {
     const user = await getUserById(id);
     if (user) {
