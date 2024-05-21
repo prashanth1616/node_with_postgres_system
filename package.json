@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.12.12",
     "@types/pg": "^8.11.6",
     "@types/pg-query-stream": "^3.4.0",
@@ -20,8 +21,10 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "pg": "^8.11.5",
     "pg-query-stream": "^4.5.5"
   }
